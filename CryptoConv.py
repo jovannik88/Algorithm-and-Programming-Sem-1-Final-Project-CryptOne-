@@ -43,7 +43,6 @@ def currency_menu():
         local = input("Enter Currency:  ").upper()
         try:
             data = api.get_data_currency(symbol, local)
-            print(data)
             print(format_currency_data(data, local))
         except Exception as e:
             print("Error:", e)
