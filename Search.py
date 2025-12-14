@@ -10,11 +10,6 @@ def run_search_cli():
     while True:
         user_input = input("\nEnter crypto/currency name or symbol: ").strip()
 
-        # allow exit directly
-        if user_input.lower() == "exit":
-            print("Goodbye!")
-            break
-
         # Try crypto search first
         result_crypto = searcher.find_crypto(user_input)
         if "no result"not in result_crypto:
