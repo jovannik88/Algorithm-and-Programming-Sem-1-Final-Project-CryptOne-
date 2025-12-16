@@ -35,7 +35,7 @@ def main():
         "Crypto Price",
         "Crypto Converter (EX : BTC to IDR)",
         "Top Crypto List","Crypto Converter(EX : BTC to ETH)","Crypto History","Search"
-    ]
+    ] #list
     
     while True:
         show_menu(options)

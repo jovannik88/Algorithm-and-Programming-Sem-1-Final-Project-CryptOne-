@@ -69,7 +69,7 @@ class Search:
         self.crypto_dict = crypto_dict
         self.currency_dict = currency_dict
 
-    #Function for searching crypto
+    #Function for searching 
     def search_symbol(self, dictionary, user_input):
         user_input = user_input.lower()
 
